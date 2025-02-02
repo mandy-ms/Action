@@ -4,8 +4,7 @@ name: Test Action
 on:
   push:
     branches:
-      - main  # or any branch you want to trigger the action
-
+      - main
 jobs:
   test:
     runs-on: ubuntu-latest
